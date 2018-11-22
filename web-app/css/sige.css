@@ -1,0 +1,318 @@
+/******************************body****************************/
+
+body {
+    background: #F2F2F2 url('../images/bg.gif') repeat-x;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*******************************Topo******************************/
+#top_banner {
+    width: 800px;
+    height: 120px;
+    margin: auto;
+}
+
+/*****************************Menu********************************/
+/***********************Especifico do Menu******************************/
+#menu {
+    /*width: 800px;*/
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    text-align: center;
+    padding-left: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*  LEVEL ONE  */
+ul.dropdown {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+ul.dropdown li {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    float: left;
+    background: url(../images/bt.gif) #d1d3d3;
+    width: 220px;
+    height: 30px;
+}
+
+ul.dropdown a:hover {
+    color: #000;
+}
+
+ul.dropdown a:active {
+    background: url(../images/topselectionright.png) top right;
+}
+
+ul.dropdown li a {
+    display: block;
+    padding: 10px 20px 10px;
+    text-align: center;
+    color: #222;
+}
+
+/* Doesn't work in IE */
+ul.dropdown li:last-child a {
+    border-right: none;
+}
+
+ul.dropdown li.hover,
+ul.dropdown li:hover {
+    background: url(../images/topselectionright.png) top right;
+    font-weight: bold;
+    color: black;
+    position: relative;
+}
+
+ul.dropdown li.hover a {
+    color: black;
+}
+
+/*  LEVEL TWO  */
+ul.dropdown ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    width: 220px;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+ul.dropdown ul li {
+    width: 100%;
+    font-weight: normal;
+    background: #f6f6f6;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+    float: none;
+}
+
+/* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a {
+    display: block;
+    padding: 10px 20px 10px;
+    text-align: left;
+}
+
+/*  LEVEL THREE  */
+ul.dropdown ul ul {
+    left: 100%;
+    top: 0;
+}
+
+ul.dropdown li:hover > ul {
+    visibility: visible;
+}
+
+
+/****************************Main Body****************************/
+#main_container {
+    width: 800px;
+    height: auto /*660px*/;
+    margin: auto;
+    background: none;
+    font-size: 12px;
+    color: #042254;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+#main_container_2 {
+    width: auto;
+    height: auto /*660px*/;
+    margin: auto;
+    background: none;
+    font-size: 12px;
+    color: #042254;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#titulo {
+    clear: both;
+    /*width: 800px;*/
+    height: 35px;
+    /*background-color: #f2f2f2;*/
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1d5885;
+}
+
+hr.thin {
+    width: 100%;
+    color: #003663;
+    background-color: #003663;
+    border: 0;
+    height: 1px;
+    margin-bottom: 5px;
+}
+
+
+.linha {
+    width: 100%;
+    color: #003663;
+    background-color: #003663;
+    border: 0;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+#messages {
+    clear: both;
+    width: 800px;
+    height: 30px;
+    background-color: #f2f2f2;
+    text-align: left;
+    padding-top: 2px;
+}
+
+#formulario {
+    clear: both;
+    width: 800px;
+    height: auto;
+    /*background-color: #f2f2f2;*/
+    border: thin dashed #000000;
+    padding: 20px 330px;
+}
+
+#table1 {
+    clear: both;
+    width: 800px;
+    height: auto;
+    /*background-color: #f2f2f2;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+fieldset {
+	border:thin solid #1d5885;
+}
+
+table {
+    border: 1px solid #1d5885;
+    width: 100%
+}
+
+th {
+    background-color: #1d5885;
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+    height: 20px;
+}
+
+td {
+    height: 20px;
+    background-color: #94b4cd;
+}
+
+/*form.order {
+	padding:20px;
+}*/
+
+ul.order li {
+    line-height: 2.4em;
+    border-bottom: 1px dashed #000000;
+    clear: both;
+    padding: 20px 20px 20px 20px;
+}
+
+label {
+    float: left;
+    width: 200px;
+    font-weight: bold;
+}
+
+input.text {
+    width: 300px;
+    background: #fff;
+    border: 1px solid #eee;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+    background-color: #fcfcfc;
+    border: 1px solid #ccc;
+    font: 11px verdana, arial, helvetica, sans-serif;
+    margin: 2px 0;
+    padding: 2px 4px;
+}
+
+.botoes {
+    text-align: center;
+}
+
+.bt-order {
+    height: 30px;
+    width: 120px;
+    border: 0 none;
+    cursor: pointer;
+    color: #FFF;
+    background-image: url("../images/padrao.png");
+    /*background-color: #042254;*/
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0 0 0 0;
+}
+
+input:hover, select:hover, textarea:hover {
+    border: 1px solid #b2d1ff;
+}
+
+input:focus, select:focus, textarea:focus {
+    border: 1px solid #b2d1ff;
+}
+
+.body {
+    float: left;
+    margin: 0 15px 10px 15px;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 20px;
+}
+
+/******************************footer****************************/
+#footer {
+    clear: both;
+    width: auto;
+    background: url(../images/footer-logo.png) no-repeat left bottom #316e9d;
+    background-position: 0 40px;
+    color: #CCCCCC;
+    height: 80px;
+    padding-top: 10px;
+    text-align: center;
+}

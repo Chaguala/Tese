@@ -1,0 +1,144 @@
+#login-box {
+    width: 608px;
+    height: 358px;
+    padding: 58px 50px 0 7px;
+    color: #ebebeb;
+    font: 12px Arial, Helvetica, sans-serif;
+    background: url(../images/login-form-Fipag1.png) no-repeat center top;
+    background-position: center;
+}
+
+#login-box img {
+    border: none;
+}
+
+#login-box h2 {
+    padding: 0;
+    margin: 0;
+    color: #ebebeb;
+    font: bold 44px "Calibri", Arial;
+}
+
+label.login-box-name {
+    float: left;
+    display: inline;
+    width: 80px;
+    text-align: center;
+    padding: 14px 10px 0 0;
+    margin: 0 0 12px 0;
+}
+
+#login-box-field {
+    float: left;
+    display: inline;
+    width: 190px;
+    margin: 0;
+    padding: 5px 0 8px 0;
+    padding-left: 105px;
+    margin-bottom: 10px;
+    height: 7%;
+    /*margin:0 0 7px 0;*/
+}
+
+.botoes_login {
+    width: 98px;
+    height: 41px;
+    font: 12px / 18px arial bold;
+    color: #000000;
+    text-decoration: none;
+    text-shadow: black;
+    background-image: url(../images/fipagButao.png);
+    border: 0px solid #CCCCCC;
+    background-color: #e4e2e2;
+    margin-left: 250px;
+}
+
+.form-login {
+    width: 205px;
+    height: 15px;
+    padding: 2px 9px 4px 9px;
+    border: 1px solid #798b98;
+    background-color: #ffffff;
+    font-size: 12px;
+    color: #666666;
+}
+
+.login-box-options {
+    clear: both;
+    padding-left: 87px;
+    font-size: 11px;
+}
+
+.login-box-options a {
+    color: #ebebeb;
+    font-size: 11px;
+}
+
+#login {
+    margin: 15px 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#login .inner {
+    width: 260px;
+    margin: 0px auto;
+    text-align: left;
+    padding: 10px;
+    border-top: 1px dashed #499ede;
+    border-bottom: 1px dashed #499ede;
+    background-color: #EEF;
+}
+
+#login .inner .fheader {
+    padding: 4px;
+    margin: 3px 0px 3px 0;
+    color: #2e3741;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#login-box .inner .cssform p {
+    clear: left;
+    margin: 0;
+    padding: 5px 0 8px 0;
+    padding-left: 90px;
+    margin-bottom: 10px;
+    height: 14px;
+}
+
+#login .inner .cssform input[type='text'] {
+    width: 120px;
+}
+
+#login .inner .cssform label {
+    font-weight: bold;
+    float: left;
+    margin-left: -105px;
+    width: 100px;
+}
+
+#massage .login_message {
+    color: red;
+}
+
+#login .inner .text_ {
+    width: 120px;
+}
+
+#login .inner .chk {
+    height: 12px;
+}
+
+#bd:after, .yui-g:after, .yui-gb:after, .yui-gc:after, .yui-gd:after, .yui-ge:after, .yui-gf:after {
+    content: ".";
+    display: block;
+    height: auto;
+    width: 20px;
+    clear: both;
+    visibility: hidden;
+}
+
+#bd, .yui-g, .yui-gb, .yui-gc, .yui-gd, .yui-ge, .yui-gf {
+    zoom: 1.06;
+}

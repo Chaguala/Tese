@@ -1,0 +1,132 @@
+@charset "utf-8";
+#navegation {
+    float: left;
+    width: 259px;
+    /*?*/
+}
+
+#navegation li a {
+    display: block;
+    /*padding: 10px 15px;*/
+    height: 29px;
+    width: 120px;
+    font-size: 14px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #6d89ad;
+    /*background: url("../images/padrao.png") no-repeat left bottom #6d89ad;*/
+    font-weight: bolder;
+    /*border-top: 1px solid #eee;*/
+    /*border-bottom: 1px solid #999;*/
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#navegation li a:hover, #navegation li a.active {
+    background-color: #6d89ad;
+    /*background-image: url("../images/padrao.png");*/
+    background-size:258px 32px;
+    color: #ffffff;
+}
+
+#navegation li ul {
+    display: none;
+}
+
+#navegation li ul li a {
+    /*padding: 3px 2px;*/
+    padding-left: 20px;
+    width: 239px;
+    height: 29px;
+    font-size: 14px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #6d89ad;
+    /*background: url("../images/padrao.png") no-repeat left bottom #6d89ad;*/
+    /*border-bottom: 1px dotted #ccc;*/
+}
+
+#navegation li ul li ul li a {
+    /*padding: 3px 2px;*/
+    padding-left: 50px;
+    width: 209px;
+    height: 29px;
+    font-size: 14px;
+    background-color: #6d89ad;
+    /*background: url("../images/padrao.png") no-repeat left bottom #6d89ad;*/
+    /*border-bottom: 1px dotted #ccc;*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+/* Reset */
+html {
+    font-family: "Trebuchet MS", Arial, Sans-serif;
+    font-size: 13px
+}
+
+/*a {*/
+/*overflow: hidden;*/
+/*color: #fff;*/
+/*text-decoration: none;*/
+/*}*/
+
+#all {
+    width: 775px;
+    margin: 40px 0px 20px 0px;
+}
+
+/*h1 {*/
+/*border-bottom: 0px solid #e1e1e1;*/
+/*margin-bottom: .7em*/
+/*}*/
+
+/*ul {*/
+/*margin-bottom: 10px*/
+/*}*/
+
+/*ul li {*/
+/*margin-bottom: .3em*/
+/*}*/
+
+/* #animation-1 */
+#navegation li {
+    width: 259px;
+}
+
+#navegation li a {
+    display: block;
+    /*padding: 3px 2px;*/
+    width: 259px;
+    background-image: url(../images/MenuBody.png);
+    background-color: #6d89ad;
+    font-family: Arial;
+    font-size: 13px
+}
+
+#MenuFooter {
+    height: 56px;
+    width: 259px;
+    background-image: url(../images/Menufooter.png);
+    background-repeat: no-repeat;
+}
+
+#MenuHeader {
+    height: 56px;
+    width: 259px;
+    text-align: center;
+    background-image: url(../images/HeaderMenu.png);
+    background-repeat: no-repeat;
+
+}
+
+.menuh1 {
+    font: 22px/22px arial;
+    font-weight: bolder;
+    height: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 24px;
+}
